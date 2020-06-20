@@ -1,0 +1,10 @@
+// highlight an element
+
+JavascriptExecutor js = ((JavascriptExecutor) driver);
+String bgcolor = element.getCssValue("backgroundColor");
+     for(inti=0;i< 10;i++){
+        changeColor("rgb(0,200,0)",
+        element,driver);//1
+        changeColor(bgcolor,
+        element,driver);//2
+       }
