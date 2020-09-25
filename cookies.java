@@ -6,7 +6,7 @@ driver.manage().addCookie(arg0); //Create and add the cookie
 driver.manage().deleteCookie(arg0); // Delete specific cookie
 driver.manage().deleteCookieNamed(arg0); // Delete specific cookie according Name
 driver.manage().deleteAllCookies(); // Delete all cookies
-
+// https://ruhr-uni-bochum.zoom.us/j/3237146737?pwd=K1lEcElWM2RHeHk2VTFSTndSckRWZz09
 // Store cookies cookie information
 public class cookieRead extends BasePage{
   public static void main(String[] args){
